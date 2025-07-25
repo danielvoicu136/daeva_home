@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'UnitedSans';
+  src: url('/src/assets/fonts/united-sans/United Sans Reg-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'UnitedSans';
+  src: url('/src/assets/fonts/united-sans/United Sans Reg-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'UnitedSans';
+  src: url('/src/assets/fonts/united-sans/United Sans Reg-Heavy.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UnitedSans';
+  src: url('/src/assets/fonts/united-sans/United Sans Reg-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'UnitedSans';
+  src: url('/src/assets/fonts/united-sans/United Sans Reg-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
