@@ -1,6 +1,10 @@
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
+import Card from './components/Card/Card'
+import Customer from './components/Customer/Customer'
+import FooterBlock from './components/FooterBlock/FooterBlock'
+import FooterBar from './components/FooterBar/FooterBar'
 import VantaBackground from './components/VantaBackground/VantaBackground'
 
 function App() {
@@ -11,6 +15,10 @@ function App() {
       <div className="absolute top-0 left-0 w-full z-10 overflow-hidden">
           <Navbar />
           <Hero />
+          <Card />
+          <Customer />
+          <FooterBlock />
+          <FooterBar />
           
 
 
