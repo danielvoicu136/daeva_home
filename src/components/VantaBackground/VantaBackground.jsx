@@ -33,5 +33,12 @@ export default function VantaBackground() {
     };
   }, [vantaEffect]);
 
-  return <div ref={vantaRef} className="w-full h-screen" />;
-}
+  // Cover the entire scrollable area
+  return (
+  <div
+      ref={vantaRef}
+      className="fixed inset-0 -z-10 pointer-events-none"
+      style={{ minHeight: "100vh", minWidth: "100vw" }}
+    />
+  );
+}    

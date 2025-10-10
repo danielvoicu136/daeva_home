@@ -5,26 +5,26 @@ import Card from './components/Card/Card'
 import Customer from './components/Customer/Customer'
 import FooterBlock from './components/FooterBlock/FooterBlock'
 import FooterBar from './components/FooterBar/FooterBar'
+import Project from './components/Project/Project'
 import VantaBackground from './components/VantaBackground/VantaBackground'
+import Career from './components/Career/Career'
 
 function App() {
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative min-h-screen">
       <VantaBackground />
 
-      <div className="absolute top-0 left-0 w-full z-10 overflow-hidden">
+      <div className="relative z-10">
           <Navbar />
           <Hero />
           <Card />
           <Customer />
+          <Project />
+          <Career />
           <FooterBlock />
           <FooterBar />
           
-
-
-
-
-          <p className="font-[UnitedSans] font-light text-amber-200 text-lg">
+<p className="font-[UnitedSans] font-light text-amber-200 text-lg">
   United Sans Light (300) – Acesta este un text cu greutate light.
 </p>
 
@@ -43,8 +43,6 @@ function App() {
 <p className="font-[UnitedSans] font-black text-amber-200 text-lg">
   United Sans Black (900) – Acesta este un text cu greutate black.
 </p>
-
-
       </div>
 
   </div>
