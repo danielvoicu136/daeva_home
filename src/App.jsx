@@ -5,9 +5,9 @@ import Card from './components/Card/Card'
 import Customer from './components/Customer/Customer'
 import FooterBlock from './components/FooterBlock/FooterBlock'
 import FooterBar from './components/FooterBar/FooterBar'
-import Project from './components/Project/Project'
 import VantaBackground from './components/VantaBackground/VantaBackground'
 import Career from './components/Career/Career'
+import ProjectCards from './components/ProjectCards/ProjectCards'
 
 function App() {
   return (
@@ -17,9 +17,10 @@ function App() {
       <div className="relative z-10">
           <Navbar />
           <Hero />
+          <ProjectCards />
           <Card />
           <Customer />
-          <Project />
+        
           <Career />
           <FooterBlock />
           <FooterBar />
